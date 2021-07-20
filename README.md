@@ -8,7 +8,7 @@ _______________
 - clone this project by `git clone https://github.com/mosheCrespin/tcp_udp_flood_v4_v6.git`
 - open the terminal and run the following command: `make all`
   #### IPv4 flood -> the exec file named `flood`:  
-  - run this following command: `./flood -t [target ip] -p [target port] -r[for switching to UDP flood]`
+  - run this following command: `sudo ./flood -t [target ip] -p [target port] -r[for switching to UDP flood]`
   
   *more details:*
   
@@ -20,7 +20,7 @@ _______________
   
    #### UDPv6 flood -> the exec file named `v6_flood`:  
    
-  - run this following command: `./v6_flood -t [target ip] -p [target port] 
+  - run this following command: `sudo ./v6_flood -t [target ip] -p [target port] 
   
   *more details:*
   
